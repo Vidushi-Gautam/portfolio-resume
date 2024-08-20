@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiori Pathak - Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Shiori Pathak</h1>
+        </div>
+        <nav>
+            <a href="#case-studies">Case Studies</a>
+            <a href="#resume">Resume</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Profile Image">
+            </div>
+            <div class="intro-text">
+                <h2>Hi, I'm Shiori!</h2>
+                <p class="pronunciation">she-or-ee</p>
+                <p class="title">designer, researcher, and an avid explorer</p>
+                <ul>
+                    <li>Current Masters student in Human-Centered Design & Engineering @ UW Seattle</li>
+                    <li>Highly curious, data-driven, and passionate about <em>creating for the human condition</em></li>
+                    <li>This summer I was a UX Research Intern for Expedia Group!</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

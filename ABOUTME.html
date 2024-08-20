@@ -3,142 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            background-color: #f4f4f4;
-        }
+    <title>Vidushi Gautam - Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #444;
-            padding: 10px 0;
-        }
-
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 18px;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            padding: 50px;
-            text-align: center;
-        }
-
-        section#about {
-            background-color: #fff;
-        }
-
-        section#portfolio {
-            background-color: #eee;
-        }
-
-        section#contact {
-            background-color: #ddd;
-        }
-
-        .portfolio-item {
-            display: inline-block;
-            width: 30%;
-            margin: 1.66%;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s;
-        }
-
-        .portfolio-item img {
-            width: 100%;
-            height: auto;
-        }
-
-        .portfolio-item:hover {
-            transform: scale(1.05);
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        @media (max-width: 768px) {
-            .portfolio-item {
-                width: 100%;
-                margin: 10px 0;
-            }
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Your Name</h1>
-        <p>Web Developer | Designer | Programmer</p>
+        <div class="logo">
+            <h1>Vidushi Gautam</h1>
+        </div>
+        <nav>
+            <a href="#contact">Contact</a>
+            <a href="#resume">Resume/Projects</a>
+            <a href="#about">About</a>
+        </nav>
     </header>
+    <main>
+        <section class="intro">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="Profile Image">
+            </div>
+            <div class="intro-text">
+                <h2>Hi, I'm Vidushi :)</h2>
+                <p class="title">engineer, researcher, and a lifelong learner</p>
+                <ul>
+                    <li>Current Undergraduate student in Electrical Engineering and Computer Science @ UC Berkeley</li>
+                    <li>Highly curious, data-driven, and passionate about <em>creating!</em></li>
+                    <li>This summer I worked on some fun projects!</li>
+                </ul>
+            </div>
+        </section>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
+    </main>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a passionate web developer with experience in creating beautiful and functional websites. I love coding, designing, and bringing ideas to life on the web.</p>
-    </section>
+    <a href="#portfolio" class="scroll-button">
+        <img src="down-arrow.png" alt="Scroll to Portfolio">
+    </a>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="portfolio-item">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
+     <h2 class="portfolio-title">Portfolio</h2>
+
+
+    <section class="portfolio">
+        <div class="project-image">
+            <img src="firstProject.jpg" alt="Expedia Partner Solutions">
         </div>
-        <div class="portfolio-item">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
+        <div class="project-content">
+            <h2>Autonomous Voice-Controlled Car Project</h2>
+            <p>January 2024 - May 2024</p>
+            <ul>
+                <li> </li>
+                <li>Designed and implemented a voice-controlled autonomous car that accurately follows specified paths using a closed-loop linear regression algorithm that uses feedback to ensure that both wheels still drive at the same velocity. 
+                </li>
+                <li> The car accurately executed four driving commands using a speech pattern classifier machine learning algorithm, leveraging SVD and PCA to ensure reliable command recognition despite audio noise. 
+                </li>
+            </ul>
         </div>
-        <div class="portfolio-item">
-            <img src="project3.jpg" alt="Project 3">
-            <h3>Project 3</h3>
-            <p>Description of Project 3.</p>
-        </div>
-    </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>If you would like to get in touch, feel free to contact me through the following methods:</p>
-        <p>Email: your.email@example.com</p>
-        <p>Phone: (123) 456-7890</p>
     </section>
+    
 
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
+
+
+
+    
 </body>
 </html>
-
-
