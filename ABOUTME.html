@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vidushi Gautam - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 
 </head>
+
 <body>
-    <header>
+    <header class="header" id = "myHeader">
         <div class="logo">
             <h1>Vidushi Gautam</h1>
         </div>
-        <nav>
-            <a href="#contact">Contact</a>
-            <a href="#resume">Resume/Projects</a>
-            <a href="#about">About</a>
-        </nav>
+            <nav class="nav-links">
+                <a href="#footer">Contact</a>
+                <a
+                href="https://docs.google.com/document/d/19Xx0evSf7pHxXLtFCUSqKMeCjHpb9u4lwa6SSfzDBE4/edit?usp=sharing">Resume</a>               
+                 <a href="#about">About</a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+                 <a></a>
+
+
+            </nav>
+        </div>
     </header>
+
+    <h2 id=portfolio class="space"></h2>
+    <h2 id=portfolio class="space">
+        <br>
+    </h2>
+
+
+
     <main>
-        <section class="intro">
+        <section id=about class="intro">
             <div class="profile-image">
                 <img src="profile.jpg" alt="Profile Image">
             </div>
@@ -27,8 +55,8 @@
                 <h2>Hi, I'm Vidushi :)</h2>
                 <p class="title">engineer, researcher, and a lifelong learner</p>
                 <ul>
-                    <li>Current Undergraduate student in Electrical Engineering and Computer Science @ UC Berkeley</li>
-                    <li>Highly curious, data-driven, and passionate about <em>creating!</em></li>
+                    <li>Current Undergraduate Junior in Electrical Engineering and Computer Science @ UC Berkeley</li>
+                    <li>Highly curious, motivated, and passionate about <em>creating!</em></li>
                     <li>This summer I worked on some fun projects!</li>
                 </ul>
             </div>
@@ -40,31 +68,231 @@
         <img src="down-arrow.png" alt="Scroll to Portfolio">
     </a>
 
-     <h2 class="portfolio-title">Portfolio</h2>
+    <h2 id=portfolio class="portfolio-title">Portfolio</h2>
 
 
-    <section class="portfolio">
-        <div class="project-image">
-            <img src="firstProject.jpg" alt="Expedia Partner Solutions">
+    <section class="portfolio1">
+
+    
+            <div class="project-content">
+                <h2>Autonomous Voice-Controlled Car Project</h2>
+                <p>January 2024 - May 2024</p>
+                <ul>
+                    <li> </li>
+                    <li>Designed and implemented a voice-controlled autonomous car that accurately follows specified paths
+                        using a closed-loop linear regression algorithm that uses feedback to ensure that both wheels still
+                        drive at the same velocity.
+                    </li>
+                    <li> The car accurately executed four driving commands using a speech pattern classifier machine
+                        learning algorithm, leveraging SVD and PCA to ensure reliable command recognition despite audio
+                        noise.
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="project-image">
+                <img src="PXL_20240426_014631455.jpg" alt="Expedia Partner Solutions">
+            </div>
+            <div>
+                <br>
+                <br>
+            
+       
+    </section>
+</div>
+<h2 id=portfolio class="spacing"></h2>
+
+    <section class="portfolio2">
+        <div class="project-image2">
+            <img src="images.jpeg" alt="spotify">
         </div>
-        <div class="project-content">
-            <h2>Autonomous Voice-Controlled Car Project</h2>
-            <p>January 2024 - May 2024</p>
+        <div class="project-content2">
+            <h2>Spotify Queue Shuffle Bot</h2>
+            <p>July 2024 - Present</p>
             <ul>
                 <li> </li>
-                <li>Designed and implemented a voice-controlled autonomous car that accurately follows specified paths using a closed-loop linear regression algorithm that uses feedback to ensure that both wheels still drive at the same velocity. 
+                <li>Developed a Python Flask bot using the Spotify API to shuffle songs randomly in the queue, enhancing
+                    playlist variety.
                 </li>
-                <li> The car accurately executed four driving commands using a speech pattern classifier machine learning algorithm, leveraging SVD and PCA to ensure reliable command recognition despite audio noise. 
+                <li> Implemented API integration for seamless interaction with Spotify’s music database. Automated the
+                    shuffling process, ensuring true randomness and improving user experience.
                 </li>
             </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </div>
 
     </section>
-    
+
+<h2 id=portfolio class="spacingback"></h2>
+
+    <section class="portfolio1">
+
+        <div class="project-content">
+            <h2>Audio-Visual Synchronization Project: Expanded Color Organ Research</h2>
+            <p>April 2024 - May 2024</p>
+            <ul>
+                <li> </li>
+                <li>Engineered a color organ to synchronize LED displays with audio frequencies, creating a dynamic
+                    visual experience, and developing seven frequency-specific RLC filters, including low-pass and
+                    high-pass filters.
+
+                </li>
+                <li> Integrated LEDs and op-amps to convert audio signals into corresponding colors, by calibrating
+                    filter components for precise frequency response and Q factor.
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="project-image">
+            <img src = "proj3.png" alt = "expanded organ">
+        </div>
+
+    </section>
+    <div class="videosection">
+        <video width="500px" height="400px" controls="controls">
+            <source src=" PXL_20240504_205500555.mp4">
+            type="mp4"
+
+        </video>
+    </div>
+    <h2 id=portfolio class="spacing"></h2>
 
 
 
+    <section class="portfolio2">
+        <div class="project-image2">
+            <img src="proj4.jpeg" alt="video">
+        </div>
+        <div class="project-content2">
+            <h2>Semantic segmentation with OpenCV and deep learning</h2>
+            <p>December 2023 - May 2024</p>
+            <ul>
+                <li> </li>
+                <li>Implemented comprehensive evaluation metrics to assess the accuracy and efficiency of semantic
+                    segmentation models, by using pixel accuracy, providing meaningful insights into the model's
+                    performance of car number plate detectors.
+                </li>
+                <li> Involved in data preprocessing, augmentation, and the implementation of robust training pipelines
+                    in Python
+                </li>
 
-    
+            </ul>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </section>
+
+    <h2 id=portfolio class="spacingback"></h2>
+
+
+    <section class="portfolio1">
+
+        <div class="project-content">
+            <h2>UC Berkeley Space Technology and Rocketry (STAR)</h2>
+            <p>December 2023 - May 2024</p>
+            <ul>
+                <li> </li>
+                <li>Develop rocketry communication avionics software with Embedded C Programming for Arduino to monitor
+                    sensors
+                </li>
+                <li> Contributed to hot-fire testing and launch by integrating hardware and software communication
+                    through sensor calibration. Collaborated with multi-disciplinary team to win FAR’s Dollar Per Foot
+                    Competition, successfully becoming UC Berkeley’s first successful liquid engine rocket
+                </li>
+
+            </ul>
+        </div>
+        <div class="project-image">
+            <img src="Screenshot 2024-08-20 at 3.00.50 PM.png" alt="video">
+        </div>
+    </section>
+    <div class="videosection">
+        <video width="500px" height="400px" controls="controls">
+            <source src=" plzwork.mp4 ">
+            type="mp4"
+        </video>
+
+    </div>
+
+    <h2 id=portfolio class="spacing"></h2>
+
+
+    <section class="portfolio2">
+        <div class="project-image2">
+            <img src="Screenshot 2024-08-20 at 3.08.30 PM.png" alt="video">
+        </div>
+        <div class="project-content2">
+            <h2>NASA L'SPACE Mission Concept Academy Program Apprenticeship </h2>
+            <p>December 2023 - May 2024</p>
+            <ul>
+                <li> </li>
+                <li>Designed and implemented the command and data handling system for a conceptual space
+                    mission.Integrated C&DH systems with other spacecraft subsystems for optimal performance, by
+                    developing data processing and storage solutions aligned with NASA standards.
+
+
+                </li>
+                <li> Selected to participate in the NASA Lucy Student Pipeline Accelerator and Competency Enabler - a
+                    virtual 12-week, rigorous professional workforce development program focused on developing skills
+                    relevant to the Space industry.
+
+
+                </li>
+                <a
+                    href="https://docs.google.com/document/d/1DdCr4jtzYc2BcxyNQi5Qr-Zf-lxsPRjz9jHa9Uly91c/edit?usp=sharing">preliminary
+                    design review</a>
+
+            </ul>
+        </div>
+    </section>
+    <h2 id=portfolio class="spacingback"></h2>
+
+    <section class="portfolio1">
+
+        <div class="project-content">
+            <h2> CS61B: Project 3 (BYOW): Large Scale Design </h2>
+            <p>December 2023 - May 2024</p>
+            <ul>
+                <li> </li>
+                <li>Developed a complex procedural generation project in Java as part of CS61B, implementing a scalable game environment using data structures like graphs, trees, and hash maps to efficiently manage in-game resources and interactions.
+
+                </li>
+                <li> Engineered a procedurally generated world in Java, employing advanced data structures and algorithms for efficient world generation and game logic, while adhering to principles of large-scale software design and development.
+
+                </li>
+
+            </ul>
+        </div>
+        <div class="project-image">
+            <img src="Screenshot 2024-04-16 at 1.07.37 AM.png" alt="video">
+        </div>
+    </section>
+
+
+    <footer id=footer style="    background-color: #A87E62; color: #000000; padding: 20px 0; text-align: center;">
+        <div style="max-width: 800px; margin: 0 auto;">
+            <h3 style="margin-bottom: 10px;">Contact Me</h3>
+            <p>If you'd like to get in touch, feel free to reach out through any of the following methods:</p>
+            <p>Email: <a href="mailto:vidushigautam@berkeley.edu"
+                    style="color: #000000; text-decoration: underline;">vidushigautam@berkeley.edu</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/vidushi-gautam-b25b851a9/" target="_blank"
+                    style="color: #000000; text-decoration: underline;">Vidushi Gautam</a></p>
+            <p>GitHub: <a href="https://github.com/Vidushi-Gautam" target="_blank"
+                    style="color: #000000; text-decoration: underline;">Vidushi-Gautam</a></p>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
