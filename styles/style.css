@@ -334,7 +334,7 @@ body {
 }
 
 /* Styles for screens smaller than 768px (like most mobile devices) */
-@media screen and (max-width: 100%) {
+@media screen and (max-width: 768px) {
     body {
         font-size: 14px;
         margin: 0px;
@@ -346,10 +346,15 @@ body {
 @media screen and (max-width: 480px) {
     body {
         font-size: 12px;
-        margin: 5px;
+        margin: 0px;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .item {
+        flex: 1 1 50%; /* Each item takes 50% width on larger screens */
+    }
+}
 
 
 
