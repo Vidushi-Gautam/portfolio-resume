@@ -482,6 +482,7 @@ body {
         height: auto;
         float:none;
         visibility: visible;
+        display: flex;
 
     }
 
