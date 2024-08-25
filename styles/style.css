@@ -51,6 +51,7 @@ main {
     display: flex;
     align-items: center;
     gap: 100px;
+    margin-top: 0;
 }
 
 .profile-image {
@@ -127,9 +128,18 @@ ul li em {
     text-align: center;
     font-size: 2rem; 
     margin: 0; /* Remove default margins */
-    padding: 20px 0;
+    padding-top: 20px 0;
     color: #2c5d3f; 
     background: linear-gradient(white, antiquewhite);
+
+}
+.x {
+    text-align: center;
+    font-size: 2rem; 
+    margin: 0; /* Remove default margins */
+    padding-top: 100px;
+    color: #2c5d3f; 
+    background: white;
 
 }
 /*
@@ -176,6 +186,31 @@ ul li em {
     color: #333;
 }
 
+.project-content2 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.project-content2 p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #2c5d3f; 
+
+}
+
+.project-content2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-content2 li {
+    margin-bottom: 5px;
+}
+
+.project-content2 li strong {
+    color: #333;
+}
+
 
 .project-image img {
     width: 300px;
@@ -200,6 +235,20 @@ ul li em {
 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.project-image3 img {
+    visibility: collapse;
+    display: none;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-right: 200px;
+    margin-left: 30px;
+
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
 
 
 
@@ -253,8 +302,8 @@ video {
     width: 48px; 
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
-    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px;
     height: auto;
     cursor: pointer;
     transition: transform 0.3s;
@@ -335,36 +384,132 @@ body {
 
 /* Styles for screens smaller than 768px (like most mobile devices) */
 @media screen and (max-width: 768px) {
-    body {
-        font-size: 14px;
-        margin: 0px;
+    header {
+        padding: 5px 10px;
+        position: fixed; /* Ensure this remains fixed */
+        width: 100%; /* Make sure it spans the full width */
+        top: 0; /* Ensure it stays at the top */
+        z-index: 1000;
+        
     }
-    /* Adjust other elements as needed */
-}
 
-/* Styles for screens smaller than 480px (small smartphones) */
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 12px;
-        margin: 0px;
+    .intro {
+        flex-direction: column;
     }
-}
 
-@media screen and (min-width: 768px) {
-    .item {
-        flex: 1 1 50%; /* Each item takes 50% width on larger screens */
+
+    .profile-image{
+        width: 200px; /* Adjust size as needed */
+        height: 200px; /* Ensure the height matches the width */
+        border-radius: 50%;
+        object-fit: cover;      
+        margin-bottom: 0;
     }
-}
 
+    .intro-text{
+        text-align: center;
+        align-items: center;
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        font-size: 0.85em;
 
+    }
 
+    .intro-text h2 {
+        font-size: 2.8em; /* Adjust font size */
+        text-align: center; /* Center align text */
+    }
 
+    .intro-text p {
+        font-size: 1.5em; /* Adjust paragraph font size */
+        text-align: center; /* Center align text */
+    }
 
+    ul li {
+        font-size: 1.2em;
+    }
 
-/* Footer Styles (if needed later) */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
+    .scroll-button img{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .portfolio1{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Centers the text within the container */
+        padding: 20px;
+    }
+
+    .project-image{
+        margin: 0 auto;
+        float:none;
+        height: auto;
+    }
+
+    .project-content{
+        max-width: 100%; /* Ensures content fits within mobile screen */
+        margin-bottom: 20px;
+        float:none;
+        margin: 0 auto;
+    }
+
+    .portfolio2{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center; /* Centers the text within the container */
+        padding: 20px;
+    }
+
+    .project-image2{
+        /*max-width: 100%;*/
+        margin: 0 auto;
+        height: auto;
+        float:none;
+
+        visibility: collapse;
+        display: none;
+    }
+
+    .project-image3 img{
+        /*max-width: 100%;*/
+        margin: 0 auto;
+        height: auto;
+        float:none;
+        visibility: visible;
+
+    }
+
+    .project-content2{
+        max-width: 100%; /* Ensures content fits within mobile screen */
+        margin-bottom: 20px;
+        float:none;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center align navigation */
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Add space between menu items */
+    }
+
+    .spacing{
+        padding: 20px 0;
+
+    }
+
+    .spacingback{
+        padding: 20px 0;
+
+    }
+
+    }
