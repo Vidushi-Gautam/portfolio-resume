@@ -477,12 +477,12 @@ body {
     }
 
     .project-image3 img{
-        /*max-width: 100%;*/
+        max-width: 100%;
         margin: 0 auto;
         height: auto;
         float:none;
         visibility: visible;
-        display: flex;
+        display: block;
 
     }
 
